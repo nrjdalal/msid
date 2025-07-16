@@ -4,7 +4,7 @@
 
 [![Twitter](https://img.shields.io/twitter/follow/nrjdalal?label=%40nrjdalal)](https://twitter.com/nrjdalal) [![npm](https://img.shields.io/npm/v/msid?color=blue&logo=npm)](https://www.npmjs.com/package/msid) [![downloads](https://img.shields.io/npm/dt/msid?color=blue&logo=npm)](https://www.npmjs.com/package/msid) [![stars](https://img.shields.io/github/stars/nrjdalal/msid?color=blue&logo=github)](https://github.com/nrjdalal/msid)
 
-> Encode any `Date` (or “now”) into the shortest possible, msid guarantees lexographically sortable and **strictly increasing IDs** when called in rapid succession string at **ms**, **second**, or **day** precision - and decode it back without loss.
+> Encode any `Date` (or “now”) into the shortest possible, msid guarantees **lexographically sortable** and **strictly increasing IDs** when called in rapid succession string at **ms**, **second**, or **day** precision - and decode it back without loss.
 
 - **ms resolution (default)** ~ 7 chars
 - **second resolution** ~ 6 chars
@@ -59,7 +59,7 @@ Based on the input type, it will either encode a `Date` to a string or decode a 
 ```ts
 import msid from "msid"
 
-// Encode default
+// Encode current time
 msid() // → UqofYU9
 
 // Encode in resolution: "ms" default

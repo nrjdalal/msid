@@ -1,6 +1,6 @@
 {
   "name": "msid",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!",
   "keywords": [
     "date",
