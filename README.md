@@ -2,7 +2,7 @@
 
 **Minimal, monotonic, URL-safe, Client-first, reversible date-based IDs - just 7 chars for millisecond precision!**
 
-[![Twitter](https://img.shields.io/twitter/follow/nrjdalal?label=%40nrjdalal)](https://twitter.com/nrjdalal) [![npm](https://img.shields.io/npm/v/msid?color=blue&logo=npm)](https://www.npmjs.com/package/msid) [![downloads](https://img.shields.io/npm/dt/msid?color=blue&logo=npm)](https://www.npmjs.com/package/msid) [![stars](https://img.shields.io/github/stars/nrjdalal/msid?color=blue&logo=github)](https://github.com/nrjdalal/msid)
+[![Twitter](https://img.shields.io/twitter/follow/nrjdalal_dev?label=%40nrjdalal_dev)](https://twitter.com/nrjdalal_dev) [![npm](https://img.shields.io/npm/v/msid?color=blue&logo=npm)](https://www.npmjs.com/package/msid) [![downloads](https://img.shields.io/npm/dt/msid?color=blue&logo=npm)](https://www.npmjs.com/package/msid) [![stars](https://img.shields.io/github/stars/nrjdalal/msid?color=blue&logo=github)](https://github.com/nrjdalal/msid)
 
 > Encode any `Date` (or “now”) into the shortest possible, msid guarantees **lexographically sortable** and **strictly increasing IDs** when called in rapid succession string at **ms**, **second**, or **day** precision - and decode it back without loss.
 
